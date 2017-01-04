@@ -58,6 +58,7 @@ function on_load_error (err) {
 
 // Handle sending a message to the bot.
 function sendMessage () {
+	$('.message-input').focus();
 	var text = $(".message-input").val();
 	$(".message-input").val("");
 	$(".chat-section").append("<div class='chat-row me'><div class='message-box'>" + text + "</div></div>");
