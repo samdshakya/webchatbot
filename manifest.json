@@ -25,6 +25,6 @@
 	"theme_color": "#3b5998",
 	"background_color": "#3b5998",
 	"display": "standalone",
-	"scope": "/",
-	"start_url": "/"
+	"scope": "https://samdshakya.github.io/webchatbot/",
+	"start_url": "https://samdshakya.github.io/webchatbot/"
 }
