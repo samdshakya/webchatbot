@@ -1,14 +1,15 @@
-var cacheName = 'chatbot-v1.0';
+var cacheName = 'WebChatbot-V1';
 var filesToCache = [
-  // '/',
-  // '/index.html',
-  // '/scripts/app.js',
-  // '/styles/inline.css',
-  // '/images/ic_refresh_white_24px.svg',
-  // '.js/jquery.min.js',
-  // '/js/datadumper.js',
-  // '/js/rivescript.min.js',
-  // '/js/main.js'
+  'https://samdshakya.github.io/webchatbot/',
+  'https://samdshakya.github.io/webchatbot/index.html',
+  'https://samdshakya.github.io/webchatbot/images/bot.svg',
+  'https://samdshakya.github.io/webchatbot/images/send-button.svg',
+  'https://samdshakya.github.io/webchatbot/scripts/app.js',
+  'https://samdshakya.github.io/webchatbot/styles/inline.css',
+  'https://samdshakya.github.io/webchatbot/js/jquery.min.js',
+  'https://samdshakya.github.io/webchatbot/js/datadumper.js',
+  'https://samdshakya.github.io/webchatbot/js/rivescript.min.js',
+  'https://samdshakya.github.io/webchatbot/js/main.js'
 ];
 
 self.addEventListener('install', function(e) {
